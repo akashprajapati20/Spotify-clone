@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Labrada:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #d4cdcb;;
+}
+
+nav ul{
+    display: flex;
+    /* removes bullet */
+    list-style: none;
+    background-color: black;
+    color: white; 
+    align-items: center;
+    font-family: 'Labrada', serif;
+    
+}
+
+
+.brand img{
+    height:44px;
+    margin: 5px 1px;
+    /* background-color: black; */
+}
+
+nav ul li{
+    margin: 0px 5px;
+}
+
+
+.bottom{
+    position: sticky;
+    background-color: black;
+    height: 120px;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+.container{
+    min-height: 72vh;
+    display: flex;
+    margin: 23px auto;
+    background-color: black;
+    width: 70%;
+    border-radius: 12px;
+    background-image: url('elvis-presley-live-1972.webp');
+    /* padding: 80px; */
+    /* background-size: auto; */
+    background-repeat: no-repeat;
+    background-size: 1125px 542px;
+}
+
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+
+.icons{
+    margin-top: 15px;
+}
+.icons i{
+    cursor: pointer;
+    margin: 0px 5px;
+}
+
+.songItem img{
+    width: 30px;
+    height: 30px;
+    border-radius: 12px;
+}
+.songItem {font-family: 'Labrada', serif;
+    background-color: white;
+    height: 30px;
+    display: flex;
+    border-radius: 12px;
+    justify-content: space-between;
+ align-items: center ;
+ margin: 16px 33px;
+ width: 28vw;
+}
+
+.songListPlay span{
+    margin: 5px;
+}
+.allSongs{
+    margin: 23px 19px;
+}
+.songList h1{
+    color: white;
+    margin: 7px 57px;
+}
+.songListPlay i{
+    cursor: pointer;
+}
+.songInfo{
+    position: absolute;
+    left: 9.5vw;
+   
+}
+.songInfo img{
+    width: 103px;
+    height: 40px;
+    opacity: 0;
+    transition: opacity 1s ease-in;
+   
+}
+
+
+ 
+
